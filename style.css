@@ -1,0 +1,98 @@
+html {
+    scroll-behavior: smooth;
+}
+.content {
+    background: radial-gradient(circle, rgba(238,174,202,0.9) 0%, rgba(148,187,233,1) 80%);
+
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    left: 0;
+    padding: 100px;
+    
+}
+
+.image-container img {
+    width: 90%;
+    height: auto;
+}
+
+.content-2 {
+  padding: 20px;
+}
+.gift {
+    padding: 50px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    padding: 10px;
+    margin: 10px;
+}
+
+p {
+    margin: 10px;
+    padding: 10px;
+}
+
+i {
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+.building-container {
+    position: relative;
+    width:100% ;
+    height: 500px;
+}
+.building-bg {
+    position: absolute;
+    background-image: url(./images/hero_bg_clashofclans_.fae7c799.webp);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(238,174,202,0.9) 0%, rgba(148,187,233,1) 80%);
+
+}
+
+.content-4 {
+    position: absolute;
+    text-align: center;
+    color: white;
+}
+
+.app-badge-container {
+    background: radial-gradient(circle, rgba(129, 10, 62, 0.9) 0%, rgb(5, 54, 110) 80%);
+
+}
+
+.modal-header {
+    background: radial-gradient(circle, rgba(129, 10, 62, 0.9) 0%, rgb(5, 54, 110) 80%);
+    color: white;
+
+} 
+
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: rgb(128, 128, 128 ,0.7);
+}
